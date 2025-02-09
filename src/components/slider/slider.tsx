@@ -1,4 +1,4 @@
-import { Slider as Radix } from "@samuwrite/radix";
+import { Slider as Radix } from "radix-ui";
 import { CSSProperties } from "react";
 import { outline } from "../../outline/outline";
 import * as s from "./slider.module.css";

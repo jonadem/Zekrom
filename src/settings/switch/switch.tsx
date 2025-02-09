@@ -1,4 +1,4 @@
-import { Label } from "@samuwrite/radix";
+import { Label } from "radix-ui";
 import { SwitchButton } from "../../components/switch/switch";
 import * as s from "./switch.module.css";
 

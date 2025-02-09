@@ -1,4 +1,4 @@
-import { Slot } from "@samuwrite/radix";
+import { Slot } from "radix-ui";
 import { ButtonHTMLAttributes, forwardRef } from "react";
 import { outline } from "../../outline/outline";
 import * as s from "./button.module.css";

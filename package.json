@@ -12,9 +12,8 @@
   "dependencies": {
     "@primer/octicons-react": "^18.3.0",
     "@rose-pine/palette": "^3.0.1",
-    "@samuwrite/markdown": "^1.0.0",
-    "@samuwrite/radix": "^1.0.0",
-    "@samuwrite/tailwind": "^1.0.4",
+    "markdown": "^0.5.0",
+    "radix-ui": "^1.1.3",
     "@tauri-apps/api": "^1.2.0",
     "@types/wicg-file-system-access": "^2020.9.5",
     "buffer": "^6.0.3",

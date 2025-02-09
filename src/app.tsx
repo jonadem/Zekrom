@@ -1,4 +1,4 @@
-import { Tooltip } from "@samuwrite/radix";
+import { Tooltip } from "radix-ui";
 import { useState } from "react";
 import { Doc } from "./types/doc/type";
 import { Editor } from "./editor/type";

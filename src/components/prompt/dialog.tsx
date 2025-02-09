@@ -1,4 +1,4 @@
-import { AlertDialog as Radix } from "@samuwrite/radix";
+import { AlertDialog as Radix } from "radix-ui";
 import { ReactNode } from "react";
 import { animation } from "../../animation/animation";
 import { Card } from "../card/card";

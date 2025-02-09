@@ -1,4 +1,4 @@
-import { RadioGroup } from "@samuwrite/radix";
+import { RadioGroup } from "radix-ui";
 import { outline } from "../../outline/outline";
 import * as s from "./option.module.css";
 

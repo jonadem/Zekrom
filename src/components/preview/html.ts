@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getHtml } from "@samuwrite/markdown";
+import { toHTML } from "markdown";
 import { Editor } from "../../editor/type";
 
 interface Params {
@@ -13,12 +13,12 @@ export const usePreviewHtml = (params: Params): string => {
 
   useEffect(() => {
     // Set initial value
-    getHtml(editor.getValue()).then((text) => setHtml(text));
+    toHTML(editor.getValue()).then((text) => setHtml(text));
 
     // Listen for changes
     const handler = async () => {
-      const markdown = editor.getValue();
-      const html = await getHtml(markdown);
+      const markdownVar = editor.getValue();
+      const html = await toHTML(markdownVar);
       setHtml(html);
     };
     const listeners = [

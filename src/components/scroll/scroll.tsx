@@ -1,4 +1,4 @@
-import { ScrollArea as Radix } from "@samuwrite/radix";
+import { ScrollArea as Radix } from "radix-ui";
 import { ReactNode } from "react";
 import * as s from "./scroll.module.css";
 

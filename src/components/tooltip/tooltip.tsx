@@ -1,4 +1,4 @@
-import { Tooltip as Radix } from "@samuwrite/radix";
+import { Tooltip as Radix } from "radix-ui";
 import { ReactNode } from "react";
 import { Card } from "../card/card";
 import * as s from "./tooltip.module.css";

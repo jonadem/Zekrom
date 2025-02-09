@@ -1,5 +1,5 @@
 import { Slider, SliderProps } from "../../components/slider/slider";
-import { Label } from "@samuwrite/radix";
+import { Label } from "radix-ui";
 import * as s from "./slider.module.css";
 
 interface Props {

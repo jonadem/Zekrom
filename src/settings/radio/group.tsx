@@ -1,4 +1,4 @@
-import { RadioGroup, Label } from "@samuwrite/radix";
+import { RadioGroup, Label } from "radix-ui";
 import { SettingsRadioOption } from "./option";
 import * as s from "./group.module.css";
 

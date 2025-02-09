@@ -1,5 +1,5 @@
 import { DashIcon, DotIcon } from "@primer/octicons-react";
-import { Switch as Radix } from "@samuwrite/radix";
+import { Switch as Radix } from "radix-ui";
 import { outline } from "../../outline/outline";
 import * as s from "./switch.module.css";
 
